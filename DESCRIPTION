@@ -1,13 +1,23 @@
 Package: reasonablyuseful
-Version: 0.0.0.9000
 Title: Reasonably Useful
+Version: 0.0.0.9000
+Authors@R: 
+    person("Ali", "Vaughan", , "alison.vaughan.mailes@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0000-0000-0000"))
 Description: A place to put things that are reasonably useful.
-Authors@R: person(given = "Ali",
-       family = "Vaughan",
-       role = c("aut", "cre"),
-       email = "alison.vaughan.mailes@gmail.com",
-       comment = c(ORCID = "0000-0000-0000-0000"))
 License: MIT + file LICENSE
+Imports: 
+    magrittr,
+    stats
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: 
+    knitr
+Config/fusen/version: 0.5.0.9008
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+URL: https://github.com/AliVaughan/reasonablyuseful
+BugReports: https://github.com/AliVaughan/reasonablyuseful/issues
