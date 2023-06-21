@@ -9,22 +9,19 @@ All commands that you use to use when developing packages...
 
 # First time just after creating the project
 
-- Fill the following chunk to create the DESCRIPTION of your package
+-   Fill the following chunk to create the DESCRIPTION of your package
 
 ```{r description, eval=FALSE}
 # Describe your package
 fusen::fill_description(
   pkg = here::here(),
   fields = list(
-    Title = "Build A Package From Rmarkdown File",
-    Description = "Use Rmarkdown First method to build your package. Start your package with documentation. Everything can be set from a Rmarkdown file in your project.",
+    Title = "Reasonably Useful ",
+    Description = "A place to put things that are reasonably useful",
     `Authors@R` = c(
-      person("John", "Doe", email = "john@email.me", role = c("aut", "cre"), comment = c(ORCID = "0000-0000-0000-0000"))
-    )
-  )
-)
+      person("Ali", "Vaughan", email = "alison.vaughan.mailes@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0000-0000-0000")))))
 # Define License with use_*_license()
-usethis::use_mit_license("John Doe")
+usethis::use_mit_license("Ali Vaughan")
 ```
 
 # Start using git
@@ -52,8 +49,8 @@ usethis::use_news_md()
 
 **From now, you will need to "inflate" your package at least once to be able to use the following commands. Let's go to your flat template, and come back here later if/when needed.**
 
-
 # Package development tools
+
 ## Use once
 
 ```{r, eval=FALSE}
@@ -115,4 +112,3 @@ devtools::build(vignettes = TRUE)
 # gitcreds::gitcreds_set()
 fusen::init_share_on_github()
 ```
-
