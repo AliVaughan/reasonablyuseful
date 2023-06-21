@@ -4,6 +4,8 @@ Title: Reasonably Useful
 Description: A place to put things that are reasonably useful.
 Authors@R: person(given = "Ali",
        family = "Vaughan",
+       role = c("aut", "cre"),
+       email = "alison.vaughan.mailes@gmail.com",
        comment = c(ORCID = "0000-0000-0000-0000"))
 License: MIT + file LICENSE
 Encoding: UTF-8
